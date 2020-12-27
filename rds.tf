@@ -1,4 +1,5 @@
 resource "aws_db_instance" "mydb" {
+  identifier = "mydb"
   allocated_storage    = 20
   storage_type         = "gp2"
   engine               = "mysql"
