@@ -1,4 +1,4 @@
-resource "aws_db_instance" "mydb" {
+resource "aws_db_instance" "myRDS-db" {
   identifier = "mydb"
   allocated_storage    = 20
   storage_type         = "gp2"
